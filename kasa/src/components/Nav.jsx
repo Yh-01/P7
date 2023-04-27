@@ -5,7 +5,7 @@ const Navstyle = styled.div`
   width: 140px;
   height: 17px;
   top: 18px;
-  margin-left: 150px;
+  margin-left: 160px;
 
   display: flex;
   align-items: flex-end;

@@ -1,6 +1,12 @@
 import styles from './Card.module.css'
+import logements from '../../logements.json'
 
 function Card() {
-  return <div className={styles.card}></div>
+  const cardList = logements.map((logement) => (
+    <div className={styles.card}>
+      <img className={styles.cardImage} src={logement.cover} alt={logement.title} />
+    </div>
+  ))
+  return <div className={styles.cardContainer}>{cardList}</div>
 }
 export default Card

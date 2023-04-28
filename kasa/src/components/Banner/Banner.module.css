@@ -7,15 +7,8 @@
   border-radius: 10px;
   position: relative;
   mix-blend-mode: darken;
-  top: 90px;
-
   display: flex;
   align-items: center;
-}
-@media (min-width: 768px) {
-  .banner {
-    top: 120px;
-  }
 }
 
 .bannerImg {

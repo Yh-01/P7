@@ -1,4 +1,6 @@
 .headerLogo {
+  margin-top: auto;
+  margin-bottom: auto;
   position: absolute;
   left: 0%;
   right: 56.72%;
@@ -10,8 +12,8 @@
 
 @media (min-width: 768px) {
   .headerLogo {
-    width: 210px;
-    height: 68px;
+    width: 150px;
+    height: 52px;
   }
 }
 

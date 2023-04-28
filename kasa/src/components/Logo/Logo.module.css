@@ -1,0 +1,20 @@
+.headerLogo {
+  position: absolute;
+  left: 0%;
+  right: 56.72%;
+  top: 0%;
+  bottom: 0%;
+  width: 145px;
+  height: 47px;
+}
+
+@media (min-width: 768px) {
+  .headerLogo {
+    width: 210px;
+    height: 68px;
+  }
+}
+
+.footerLogo {
+  width: 122px;
+}

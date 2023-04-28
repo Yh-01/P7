@@ -1,7 +1,4 @@
-import FooterLogo from './FooterLogo'
-import styled from 'styled-components'
-
-const FooterStyle = styled.footer`
+.footerBanner {
   position: absolute;
   bottom: 0%;
   width: 100%;
@@ -12,13 +9,14 @@ const FooterStyle = styled.footer`
   align-items: center;
   flex-direction: column;
   margin-left: 0px;
-
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  .footerBanner {
     font-size: 24px;
   }
-`
+}
 
-const FooterText = styled.div`
+.footerText {
   color: white;
   font-family: Montserrat;
   font-style: Medium;
@@ -26,17 +24,4 @@ const FooterText = styled.div`
   line-height: 143%;
   text-align: center;
   vertical-align: bottom;
-`
-
-function Footer() {
-  return (
-    <FooterStyle>
-      <FooterLogo />
-      <FooterText>
-        <p>© 2020 Kasa. All rights reserved</p>
-      </FooterText>
-    </FooterStyle>
-  )
 }
-
-export default Footer

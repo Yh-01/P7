@@ -10,6 +10,11 @@
   display: flex;
   align-items: center;
 }
+@media (min-width: 768px) {
+  .banner {
+    margin-top: 20px;
+  }
+}
 
 .bannerImg {
   position: absolute;

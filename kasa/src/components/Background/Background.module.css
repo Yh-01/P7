@@ -1,0 +1,15 @@
+.picture {
+  background: #000000;
+  mix-blend-mode: darken;
+  border-radius: 10px;
+  object-fit: cover;
+
+  height: 220px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .picture {
+    margin-top: 20px;
+    height: 180px;
+  }
+}

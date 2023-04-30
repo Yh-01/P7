@@ -20,4 +20,5 @@ main {
   margin-right: auto;
   padding-top: 90px;
   padding-bottom: 30px;
+  min-height: 80vh;
 }

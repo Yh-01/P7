@@ -1,8 +1,11 @@
+import Background from '../components/Background/Background'
 import Collapse from '../components/Collapse/Collapse'
+import backgroundImage from '../assets/mountain.png'
 
 function About() {
   return (
     <div>
+      <Background image={backgroundImage} />
       <Collapse
         title="Fiabilité"
         text="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."

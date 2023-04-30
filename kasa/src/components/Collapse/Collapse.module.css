@@ -10,6 +10,11 @@
   align-items: center;
   position: relative;
 }
+@media (min-width: 768px) {
+  .container {
+    width: 82%;
+  }
+}
 
 .title {
   font-style: normal;
@@ -33,6 +38,7 @@
 
 .iconeImage {
   width: 100%;
+  transform: rotate(180);
 }
 
 .collapseText {
@@ -44,6 +50,10 @@
   background: #f7f7f7;
   border-radius: 5px;
   clip-path: inset(5px 0 0 0);
+}
+
+.rotate {
+  transform: rotate(180deg);
 }
 
 .text {

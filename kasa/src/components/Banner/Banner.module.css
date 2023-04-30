@@ -13,6 +13,7 @@
 @media (min-width: 768px) {
   .banner {
     margin-top: 20px;
+    height: 150px;
   }
 }
 

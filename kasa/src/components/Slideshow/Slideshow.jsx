@@ -1,5 +1,6 @@
 import styles from './Slideshow.module.css'
 import React, { useState } from 'react'
+import arrow from '../../assets/chevron.png'
 
 // Fonction pour passer à la photo précédente ou dernière photo
 function previousPicture(currentIndex, setCurrentIndex, photos) {
@@ -19,6 +20,7 @@ function nextPicture(currentIndex, setCurrentIndex, photos) {
   }
 }
 
+//Fonction affichage du slide
 function Slideshow(props) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const currentPicture = props.photos[currentIndex]
@@ -28,17 +30,19 @@ function Slideshow(props) {
       <img className={styles.picture} src={currentPicture} alt="Logement" />
       {/* Condition d'affichage des flèches */}
       {props.photos.length > 1 ? (
-        <>
+        <React.Fragment>
           <div className={styles.back} onClick={() => previousPicture(currentIndex, setCurrentIndex, props.photos)}>
-            <img className={styles.arrowBack} alt="Back" />
+            <img className={styles.backArrow} alt="Back" src={arrow} />
           </div>
           <div className={styles.forward} onClick={() => nextPicture(currentIndex, setCurrentIndex, props.photos)}>
-            <img className={styles.arrowForward} alt="Forward" />
+            <img className={styles.forwardArrow} alt="Forward" src={arrow} />
           </div>
           <div className={styles.page}>
-            <p></p>
+            <p>
+              {currentIndex + 1}/{props.photos.length}
+            </p>
           </div>
-        </>
+        </React.Fragment>
       ) : null}
     </div>
   )

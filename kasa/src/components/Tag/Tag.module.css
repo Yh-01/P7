@@ -1,0 +1,31 @@
+.tags {
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container {
+  background: #ff6060;
+  border-radius: 10px;
+  height: 25px;
+  width: 25%;
+  position: relative;
+  margin-right: 15px;
+  margin-top: 8px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 10%;
+  }
+}
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 142.6%;
+  color: #ffffff;
+  height: 25px;
+  margin-top: 0;
+  padding-top: 4px;
+  text-align: center;
+}

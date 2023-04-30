@@ -1,0 +1,14 @@
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 142.6%;
+  color: #ff6060;
+}
+.hostPicture {
+  background: #c4c4c4;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}

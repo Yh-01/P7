@@ -1,11 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Layout from './Layout/Layout'
-import Home from '../pages/home'
-import Logement from '../pages/logement'
-import About from '../pages/about'
-import NotFound from '../pages/notfound'
+import Layout from './components/Layout/Layout'
+import Home from './pages/home'
+import Logement from './pages/logement'
+import About from './pages/about'
+import NotFound from './pages/notfound'
 
 function AppRouter() {
   return (

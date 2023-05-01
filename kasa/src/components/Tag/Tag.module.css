@@ -3,19 +3,25 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: -20px;
+}
+@media (min-width: 768px) {
+  .tags {
+    margin-top: -0px;
+  }
 }
 .container {
   background: #ff6060;
-  border-radius: 10px;
-  height: 25px;
+  border-radius: 5px;
+  height: 20px;
   width: 25%;
   position: relative;
   margin-right: 15px;
-  margin-top: 8px;
 }
 @media (min-width: 768px) {
   .container {
-    width: 10%;
+    width: 15%;
+    margin-top: -5%;
   }
 }
 .text {
@@ -26,6 +32,6 @@
   color: #ffffff;
   height: 25px;
   margin-top: 0;
-  padding-top: 4px;
+  padding-top: 1px;
   text-align: center;
 }

@@ -1,0 +1,16 @@
+.star {
+  margin-right: 10px;
+  height: 14px;
+}
+@media (min-width: 768px) {
+  .star {
+    height: 18px;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .star {
+    height: 18px;
+    margin-top: 40px;
+  }
+}

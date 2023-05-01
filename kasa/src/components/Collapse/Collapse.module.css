@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  margin: auto;
   height: 30px;
   background: #ff6060;
   border-radius: 5px;
@@ -12,7 +11,7 @@
 }
 @media (min-width: 768px) {
   .container {
-    width: 82%;
+    width: 45%;
   }
 }
 
@@ -38,7 +37,6 @@
 
 .iconeImage {
   width: 100%;
-  transform: rotate(180);
 }
 
 .collapseText {

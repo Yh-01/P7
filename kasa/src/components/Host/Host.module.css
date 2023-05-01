@@ -1,14 +1,26 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 .name {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 142.6%;
   color: #ff6060;
+  width: 50%;
 }
 .hostPicture {
   background: #c4c4c4;
-  width: 55px;
-  height: 55px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   object-fit: cover;
+  margin-left: -5px;
+}
+@media (min-width: 768px) {
+  .hostPicture {
+    margin-left: 0px;
+  }
 }

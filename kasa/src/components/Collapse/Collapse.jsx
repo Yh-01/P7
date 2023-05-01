@@ -19,7 +19,7 @@ function Collapse(props) {
         <img src={chevron} className={`${styles.iconeImage} ${isrotated ? styles.rotate : ''}`} alt="Voir plus" />
         {isOpen && (
           <div className={styles.collapseText}>
-            <p className={styles.text}>{props.text}</p>
+            <div className={styles.text}>{props.text}</div>
           </div>
         )}
       </div>

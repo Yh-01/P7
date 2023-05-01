@@ -2,7 +2,9 @@ import styles from './Card.module.css'
 import logements from '../../logements.json'
 import { Link } from 'react-router-dom'
 
+// Affichage des cards
 function Card() {
+  // récupération des cards sur le doc json
   const cardList = logements.map((logement) => (
     <Link to={`/logement/${logement.id}`} className={styles.link} key={logement.id}>
       <div className={styles.card}>

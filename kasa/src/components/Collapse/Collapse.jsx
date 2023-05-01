@@ -3,10 +3,12 @@ import styles from './Collapse.module.css'
 import chevron from '../../assets/chevron.png'
 
 function Collapse(props) {
+  // Déclaration des etats
   const [isOpen, setIsOpen] = useState(false)
   const [margin, setMargin] = useState(20)
   const [isrotated, setIsRotated] = useState(false)
 
+  // Fonction lorsque l'icone est cliqué
   const openText = () => {
     setIsOpen(!isOpen)
     setMargin(isOpen ? 20 : 220)

@@ -1,6 +1,7 @@
 import FooterLogo from '../Logo/FooterLogo'
 import styles from './Footer.module.css'
 
+// Création du footer pour le layout
 function Footer() {
   return (
     <footer className={styles.footerBanner}>

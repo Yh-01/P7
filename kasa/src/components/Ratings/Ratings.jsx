@@ -2,6 +2,7 @@ import styles from './Ratings.module.css'
 import greyStar from '../../assets/greyStar.png'
 import orangeStar from '../../assets/orangeStar.png'
 
+// Affichage des etoiles selon la props note
 function Ratings(props) {
   const rating = props.note
   const stars = []

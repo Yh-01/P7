@@ -1,5 +1,6 @@
 import styles from './Banner.module.css'
 
+// Banniere page Home
 function Banner(props) {
   return (
     <div className={styles.banner}>

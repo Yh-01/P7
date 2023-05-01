@@ -1,5 +1,6 @@
 import styles from './Host.module.css'
 
+// Affichage du nom et photo de l'hote
 function Host(props) {
   return (
     <div className={styles.container}>

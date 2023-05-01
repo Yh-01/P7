@@ -10,8 +10,10 @@ import { useParams, Navigate } from 'react-router-dom'
 
 function Logement() {
   const { id } = useParams()
+  // recherche du logement correspondant à l'id
   const logement = logements.find((logement) => logement.id === id)
 
+  // Hook navigate pour la redirection en cas de modif id
   if (!logement) {
     return <Navigate to="/notfound" />
   }

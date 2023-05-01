@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import styles from './ErrorPage.module.css'
 import image from '../../assets/404.png'
 
+// Affichage de la page erreur
 function Error() {
   return (
     <div className={styles.container}>

@@ -29,6 +29,7 @@ function Logement() {
       </div>
       <div className={styles.collapseDesktop}>
         <Collapse title="Description" text={logement.description} className={styles.collapseDesktop} />
+        <div className={styles.void}></div>
         <Collapse
           title="Équipements"
           text={

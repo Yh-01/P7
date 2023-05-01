@@ -69,3 +69,8 @@ h1 {
     margin-top: -35px;
   }
 }
+@media (min-width: 768px) {
+  .void {
+    width: 100px;
+  }
+}
